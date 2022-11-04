@@ -1,4 +1,5 @@
 import React from "react";
+import Booking from "./Booking";
 
 const Hero = () => {
   return (
@@ -16,31 +17,7 @@ const Hero = () => {
               Book Your Space
             </h1>
             <div className="mb-5">
-              <input
-                type="text"
-                placeholder="Drivers name"
-                className="input input-bordered m-3 w-64"
-              />
-              <input
-                type="text"
-                placeholder="Vehicle number"
-                className="input input-bordered m-3 w-64"
-              />
-              <input
-                type="datetime-local"
-                placeholder="Type here"
-                className="input input-bordered m-3"
-              />
-              <input
-                type="datetime-local"
-                placeholder="Type here"
-                className="input input-bordered m-3"
-              />
-              <input
-                type="submit"
-                placeholder="Submit"
-                className="input input-bordered m-3 bg-green-400 border-none outline-none"
-              />
+              <Booking />
             </div>
           </div>
         </div>
